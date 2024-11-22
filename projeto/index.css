@@ -1,0 +1,146 @@
+img {
+  max-width: 100%; 
+  height: auto; 
+}
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço */
+}
+
+.item {
+  flex: 1 1 200px;
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    text-align: center;
+    background-color: #ffffff;
+    
+    
+}
+.texto-cabeçalho{
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+img{
+    width: 230px;
+    height: 70px;
+    padding: 3px;
+}
+    
+    header {
+      text-align: center;
+      margin-top: 20px;
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+}
+
+
+a {
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(45deg, cyan, blue);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh; 
+  }
+.texto-sobre h1{
+  
+  margin-top: 30px;
+  margin-bottom: 10px; 
+  text-align: center;
+  font-size: 40px;
+  border-radius: 15px;
+  color:white;
+  text-shadow: 
+                -3px -3px 0px rgba(44, 38, 38, 0.768),  
+                3px -3px 0px black,
+                -3px 2px 0px rgba(0, 0, 0, 0.829),
+                3px 3px 0px rgba(17, 16, 16, 0.805);
+  
+
+  }
+  
+  
+
+  .container {
+    display: grid; 
+    flex-wrap: wrap;
+    gap:20px;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 40px; 
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; 
+    position: relative;
+    margin-top: 20px;
+    margin: auto;
+
+    
+  }
+  .div {
+    display: grid;
+    align-items: center;
+      
+  }
+  
+  
+
+  .table-container {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 360px;  
+    height: 270px; 
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .table-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    padding: 8px;
+    border: 3px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  table th {
+    background-color: #f0f0f0;
+  }
+
+  
+  
+  table td {
+    text-align: center;
+  }
+  
+
